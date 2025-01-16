@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Management System</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="about/index.html">About</a>
+        <a href="room/index.html">Rooms</a>
+        <a href="contact/index.html">Contact</a>
+    </nav>
+
+    <div class="container" id="rooms">
+        <h2>Available Rooms</h2>
+        <div class="room">
+            <div class="room-card">
+                <img src="hacker-8003327_640.png"" alt="Room Image">
+                <h3>Deluxe Room</h3>
+                <p>Price: $120/night</p>
+                <button onclick="bookRoom('Deluxe Room')">Book Now</button>
+            </div>
+            <div class="room-card">
+                <img src="hacker-8003327_640.png" alt="Room Image">
+                <h3>Executive Suite</h3>
+                <p>Price: $200/night</p>
+                <button onclick="bookRoom('Executive Suite')">Book Now</button>
+            </div>
+            <div class="room-card">
+                <img src="hacker-8003327_640.png" alt="Room Image">
+                <h3>Family Suite</h3>
+                <p>Price: $180/night</p>
+                <button onclick="bookRoom('Family Suite')">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Hotel Management System. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
